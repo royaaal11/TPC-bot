@@ -12,7 +12,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 REVIEW_CHANNEL_ID = 1528778361361534986
 MOD_LOG_CHANNEL_ID = 1528989369526915163
 
-LINK_REGEX = r"(https?://\S+|discord\.gg/\S+|discord\.com/invite/\S+)"
+LINK_REGEX = r"(?:https?://)?(?:www\.)?(?:discord\.gg|discord\.com/invite)/[A-Za-z0-9\-]+"
 
 # -----------------------------
 # JSON Helpers
